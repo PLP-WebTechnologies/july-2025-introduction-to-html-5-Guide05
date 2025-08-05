@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A basic web page demonstrating HTML5 semantic tags and accessibility best practices.">
+    <title>My assignment for Web Page dev</title>
+</head>
+<body>
+<style></style>
+    <header>
+        <h1>Welcome to Guide's Basic Web Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    
+    <main>
+        <section id="about">
+            <h2>About us</h2>
+            <p>We are dedicated to providing quality services to our clients.</p>
+        </section>
+        
+        <section id="services">
+            <h2>Our Services</h2>
+            <article>
+                <h3>Service One</h3>
+                <p>Description of service one.</p>
+            </article>
+            <article>
+                <h3>Service Two</h3>
+                <p>Description of service two.</p>
+            </article>
+        </section>
+        
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="post" aria-label="Contact Form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+              
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Guide's Basic Web Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
